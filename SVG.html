@@ -8,14 +8,18 @@
             height: 100%;
         }
     </style>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0.10/dist/svg.min.js"></script>
 </head>
 <body>
     <div>
         <input type="button" value="Flip" onclick="flip()" />
+        <input type="button" value="Zoom" onclick="zoomIn()" />
+        <input type="button" value="Zoom" onclick="zoomOut()" />
     </div>
-<div id="drawing"></div>
+<div id="drawing">
+    <div id="0" style="width: 490.2px;height: 436.5px;"></div>
+    <div id="1" style="width: 490.2px;height: 436.5px;"></div>
+    <div id="2" style="width: 490.2px;height: 436.5px;"></div>
+</div>
     <script src="SVG.js"></script>
 </body>
 </html>
