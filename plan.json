@@ -1,227 +1,235 @@
 {
-    "statusCode": 200,
-    "message": "Success",
-    "data": {
-      "name": "bdx.demo-Stonebridge",
-      "title": "Stonebridge",
-      "svgPath": "http://dev-visualizerassets.exitest.com/Marrick_Stonebridge_IFP.svg",
-      "stages": [
-        {
-          "stageId": 1,
-          "stageName": "Basement",
-          "layerId": "000",
-          "options": [
-            {
-              "optionId": 9,
-              "optionName": "Media Room",
-              "layerId": "005",
-              "imagePath": "",
-              "rules": []
-            },
-            {
-              "optionId": 10,
-              "optionName": "Wet Bar",
-              "layerId": "008",
-              "imagePath": "",
-              "rules": []
-            }
-          ]
-        },
-        {
-          "stageId": 2,
-          "stageName": "First Floor",
-          "layerId": "100",
-          "options": [
-            {
-              "optionId": 11,
-              "optionName": "Deluxe Kitchen",
-              "layerId": "104",
-              "imagePath": "",
-              "rules": [
-                {
-                  "optionId": "104",
-                  "selected": false,
-                  "include": null,
-                  "exclude": null,
-                  "includeImage": 104
-                }
-              ]
-            },
-            {
-              "optionId": 12,
-              "optionName": "Morning Room",
-              "layerId": "105",
-              "imagePath": "",
-              "rules": []
-            }
-          ]
-        },
-        {
-          "stageId": 3,
-          "stageName": "Second Floor",
-          "layerId": "200",
-          "options": [
-            {
-              "optionId": 13,
-              "optionName": "Alt Owners Bath",
-              "layerId": "203",
-              "imagePath": "",
-              "rules": []
-            },
-            {
-              "optionId": 14,
-              "optionName": "Walk-In Closet",
-              "layerId": "206",
-              "imagePath": "",
-              "rules": [
-                {
-                  "optionId": "206",
-                  "selected": true,
-                  "include": null,
-                  "exclude": null,
-                  "includeImage": 206
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "stageId": 4,
-          "stageName": "Elevations",
-          "layerId": "600",
-          "options": [
-            {
-              "optionId": 15,
-              "optionName": "Elevation A",
-              "layerId": "601",
-              "imagePath": "http://dev-visualizerassets.exitest.com/Elev_A.jpg",
-              "rules": []
-            },
-            {
-              "optionId": 16,
-              "optionName": "Elevation B",
-              "layerId": "602",
-              "imagePath": "http://dev-visualizerassets.exitest.com/Elev_B.jpg",
-              "rules": []
-            }
-          ]
-        }
-      ],
-      "attributes": {
-        "plan": {
-          "info1": "4 Bedrooms, 3 Baths, 2 Car Garage",
-          "info2": "4,560 Square Feet",
-          "basePrice": "350000.00"
-        },
-        "option": {
-          "isShow": "true"
-        },
-        "furniture": {
-          "isShow": "true"
-        },
-        "gallery": {
-          "isShow": "true"
-        },
-        "notes": {
-          "isShow": "true"
-        },
-        "help": {
-          "isShow": "true"
-        }
-      },
-      "furnitures": [
-        {
-          "id": 1,
-          "name": "King Bed",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Bed_King.svg",
-          "description": "80x80",
-          "isActive": true
-        },
-        {
-          "id": 2,
-          "name": "Queen Bed",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Bed_King.svg",
-          "description": "60x80",
-          "isActive": true
-        },
-        {
-          "id": 3,
-          "name": "Sofa Large",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Sofa_Sectional.svg",
-          "description": "76x80",
-          "isActive": true
-        },
-        {
-          "id": 4,
-          "name": "Breakfast Table",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Table_Breakfast.svg",
-          "description": "76x80",
-          "isActive": true
-        },
-        {
-          "id": 5,
-          "name": "Pool Table",
-          "imagePath": "http://dev-visualizerassets.exitest.com/Color_Pool_Table.svg",
-          "description": "76x80",
-          "isActive": true
-        }
-      ],
-      "hotspot": [
-        {
-          "id": 1,
-          "hotspotMedia": [
-            {
-              "id": 0,
-              "mediaType": "image",
-              "name": "Bellissima-Residence-3-03",
-              "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
-            },
-            {
-              "id": 0,
-              "mediaType": "image",
-              "name": "Bellissima-Residence-3-03",
-              "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
-            },
-            {
-              "id": 0,
-              "mediaType": "image",
-              "name": "Bellissima-Residence-3-03",
-              "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "hotspotMedia": [
-            {
-              "id": 0,
-              "mediaType": "image",
-              "name": "Bellissima-Residence-3-03",
-              "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
-            }
-          ]
-        }
-      ],
-      "galleryMedia": [
-        {
-          "id": 1,
-          "mediaType": "image",
-          "name": "Bellissima-Residence-3-01",
-          "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
-        },
-        {
-          "id": 2,
-          "mediaType": "image",
-          "name": "Bellissima-Residence-3-02",
-          "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
-        },
-        {
-          "id": 3,
-          "mediaType": "image",
-          "name": "Bellissima-Residence-3-03",
-          "src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
-        }
-      ]
-    },
-    "totalRecords": 1
-  }
+"statusCode": 200,
+"message": "Success",
+"data": {
+"name": "bdx.demo-Stonebridge",
+"title": "Stonebridge",
+"svgPath": "http://dev-visualizerassets.exitest.com/Marrick_Stonebridge_IFP.svg",
+"stages": [
+{
+"stageId": 1,
+"stageName": "Basement",
+"layerId": "000",
+"options": [
+{
+"optionId": 9,
+"optionName": "Media Room",
+"layerId": "005",
+"imagePath": "",
+"rules": []
+},
+{
+"optionId": 10,
+"optionName": "Wet Bar",
+"layerId": "008",
+"imagePath": "",
+"rules": []
+}
+]
+},
+{
+"stageId": 2,
+"stageName": "First Floor",
+"layerId": "100",
+"options": [
+{
+"optionId": 11,
+"optionName": "Deluxe Kitchen",
+"layerId": "104",
+"imagePath": "",
+"rules": [
+{
+"optionId": "104",
+"selected": false,
+"include": null,
+"exclude": null,
+"includeImage": 104
+}
+]
+},
+{
+"optionId": 12,
+"optionName": "Morning Room",
+"layerId": "105",
+"imagePath": "",
+"rules": []
+}
+]
+},
+{
+"stageId": 3,
+"stageName": "Second Floor",
+"layerId": "200",
+"options": [
+{
+"optionId": 13,
+"optionName": "Alt Owners Bath",
+"layerId": "203",
+"imagePath": "",
+"rules": []
+},
+{
+"optionId": 14,
+"optionName": "Walk-In Closet",
+"layerId": "206",
+"imagePath": "",
+"rules": [
+{
+"optionId": "206",
+"selected": true,
+"include": null,
+"exclude": null,
+"includeImage": 206
+}
+]
+}
+]
+},
+{
+"stageId": 4,
+"stageName": "Elevations",
+"layerId": "600",
+"options": [
+{
+"optionId": 15,
+"optionName": "Elevation A",
+"layerId": "601",
+"imagePath": "http://dev-visualizerassets.exitest.com/Elev_A.jpg",
+"rules": []
+},
+{
+"optionId": 16,
+"optionName": "Elevation B",
+"layerId": "602",
+"imagePath": "http://dev-visualizerassets.exitest.com/Elev_B.jpg",
+"rules": []
+}
+]
+}
+],
+"attributes": {
+"plan": {
+"info1": "4 Bedrooms, 3 Baths, 2 Car Garage",
+"info2": "4,560 Square Feet",
+"basePrice": "350000.00"
+},
+"option": {
+"isShow": "true"
+},
+"furniture": {
+"isShow": "true"
+},
+"gallery": {
+"isShow": "true"
+},
+"notes": {
+"isShow": "true"
+},
+"help": {
+"isShow": "true"
+}
+},
+"furnitureList": [
+{
+"category": "Bedroom",
+"furnitures": [
+{
+"id": 1,
+"name": "King Bed",
+"imagePath": "http://dev-visualizerassets.exitest.com/Color_Bed_King.svg",
+"description": "80x80"
+},
+{
+"id": 2,
+"name": "Queen Bed",
+"imagePath": "http://dev-visualizerassets.exitest.com/Color_Bed_King.svg",
+"description": "60x80"
+}
+]
+},
+{
+"category": "Living",
+"furnitures": [
+{
+"id": 3,
+"name": "Sofa Large",
+"imagePath": "http://dev-visualizerassets.exitest.com/Color_Sofa_Sectional.svg",
+"description": "76x80"
+}
+]
+},
+{
+"category": "Dining",
+"furnitures": [
+{
+"id": 4,
+"name": "Breakfast Table",
+"imagePath": "http://dev-visualizerassets.exitest.com/Color_Table_Breakfast.svg",
+"description": "76x80"
+}
+]
+},
+{
+"category": "Accessories",
+"furnitures": [
+{
+"id": 5,
+"name": "Pool Table",
+"imagePath": "http://dev-visualizerassets.exitest.com/Color_Pool_Table.svg",
+"description": "76x80"
+}
+]
+}
+],
+"hotspotList": [
+{
+"id": 1,
+"hotspots": [
+{
+"mediaType": "image",
+"name": "Bellissima-Residence-3-03",
+"src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
+},
+{
+"mediaType": "image",
+"name": "Bellissima-Residence-3-03",
+"src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
+},
+{
+"mediaType": "image",
+"name": "Bellissima-Residence-3-03",
+"src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
+}
+]
+},
+{
+"id": 2,
+"hotspots": [
+{
+"mediaType": "image",
+"name": "Bellissima-Residence-3-03",
+"src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
+}
+]
+}
+],
+"galleries": [
+{
+"mediaType": "image",
+"name": "Bellissima-Residence-3-01",
+"src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
+},
+{
+"mediaType": "image",
+"name": "Bellissima-Residence-3-02",
+"src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
+},
+{
+"mediaType": "image",
+"name": "Bellissima-Residence-3-03",
+"src": "http://dev-visualizerassets.exitest.com/Bellissima-Residence-3-01.jpg"
+}
+]
+},
+"totalRecords": 1
+}
